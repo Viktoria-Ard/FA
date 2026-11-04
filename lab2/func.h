@@ -1,0 +1,16 @@
+void print_err(char *message);
+char* int_to_str(int val);
+char* unit_to_str(unsigned int val);
+char* roman(int num);
+char* zeckendorf(unsigned int num);
+char trasform_small(int dig);
+char trasform_big(int dig);
+char* to_ss(int ss, int num, bool small);
+char* print_mi(int val);
+char* print_mu(unsigned int val);
+char* print_md(double val);
+char* print_mf(float val);
+int to_mini_des(int osn, char * x);
+int to_big_des(int osn, char * x);
+int str_to_file(FILE *file, char *str);
+char *double_to_str(double val);
